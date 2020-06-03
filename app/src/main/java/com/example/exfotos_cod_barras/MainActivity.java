@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onActivityResult(requestCode,resultCode,data);
         Bundle bundle = data.getExtras();
-
+             //vaii
         if(data != null)
         {
             Bitmap bitmap = (Bitmap)bundle.get("data");
